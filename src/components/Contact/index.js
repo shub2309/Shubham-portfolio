@@ -143,7 +143,7 @@ const Contact = () => {
 
   return (
     <Container>
-      <Wrapper>
+      {/* <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
@@ -154,7 +154,7 @@ const Contact = () => {
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
-      </Wrapper>
+      </Wrapper> */}
     </Container>
   )
 }
